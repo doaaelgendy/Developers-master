@@ -4,11 +4,7 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".MainActivity"
-<<<<<<< HEAD
 android:background="@color/background_main">
-=======
-android:background="#d7e2e4">
->>>>>>> a9bec0308e51b2ca7e26f1dbbdc3d3df7976dbe7
 
 <ImageView
     android:id="@+id/imageview"
@@ -22,6 +18,9 @@ android:background="#d7e2e4">
     android:layout_marginRight="82dp"
     android:contentDescription="@string/app_name"
     android:src="@drawable/dee" />
+
+
+
 
 <ListView
     android:id="@+id/android:list"
@@ -39,15 +38,7 @@ android:background="#d7e2e4">
     android:orientation="horizontal">
 
     <LinearLayout
-<<<<<<< HEAD
        style="@style/linear_style">
-=======
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-
-        android:orientation="vertical">
->>>>>>> a9bec0308e51b2ca7e26f1dbbdc3d3df7976dbe7
 
     <ImageView
         android:layout_height="40dp"
@@ -56,31 +47,14 @@ android:background="#d7e2e4">
         android:layout_marginLeft="5dp"/>
 
         <Button
-<<<<<<< HEAD
             style="@style/button_style"
             android:text="@string/title_home"
             android:layout_marginTop="5dp"
-=======
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="الفريق البرمجى"
-            android:background="@drawable/drawable2"
-            android:textColor="#d7e2e4"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="20dp"
->>>>>>> a9bec0308e51b2ca7e26f1dbbdc3d3df7976dbe7
 
             />
     </LinearLayout>
     <LinearLayout
-<<<<<<< HEAD
         style="@style/linear_style">
-=======
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
->>>>>>> a9bec0308e51b2ca7e26f1dbbdc3d3df7976dbe7
 
     <ImageView
             android:layout_width="wrap_content"
@@ -88,31 +62,15 @@ android:background="#d7e2e4">
             android:src="@drawable/xml"
             android:layout_marginLeft="5dp"/>
         <Button
-<<<<<<< HEAD
             style="@style/button_style"
             android:text="@string/title_dashboard"
-=======
-            android:background="@drawable/drawable2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="فريق   xml"
-            android:textColor="#d7e2e4"
-            android:layout_marginLeft="20dp"
->>>>>>> a9bec0308e51b2ca7e26f1dbbdc3d3df7976dbe7
 
             />
     </LinearLayout>
 
 
     <LinearLayout
-<<<<<<< HEAD
         style="@style/linear_style">
-=======
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
->>>>>>> a9bec0308e51b2ca7e26f1dbbdc3d3df7976dbe7
 
     <ImageView
             android:layout_width="wrap_content"
@@ -120,25 +78,12 @@ android:background="#d7e2e4">
             android:src="@drawable/design"
             android:layout_marginLeft="5dp"
             />
-<<<<<<< HEAD
 
         <Button
             style="@style/button_style"
             android:layout_marginTop="5dp"
             android:text="@string/title_notifications"
 
-=======
-
-        <Button
-            android:background="@drawable/drawable2"
-            android:layout_width="wrap_content"
-            android:textColor="#d7e2e4"
-            android:layout_marginTop="5dp"
-            android:layout_height="wrap_content"
-            android:text=" فريق التصميم"
-            android:layout_marginLeft="20dp"
-
->>>>>>> a9bec0308e51b2ca7e26f1dbbdc3d3df7976dbe7
             />
     </LinearLayout>
 
